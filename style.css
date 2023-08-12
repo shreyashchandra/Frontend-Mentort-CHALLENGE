@@ -9,6 +9,8 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
+    position: relative;
+
 }
 
 .container {
@@ -59,4 +61,20 @@ body {
   /* margin-left: 15px; */
   width: 250px;
   margin-bottom: 40px;
+}
+
+.f {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 541px;
+  align-items: center;
+  text-align: center;
+  /* background-color: hsl(218, 44%, 22%); */
+  color: hsl(218, 44%, 22%);
+}
+
+a:any-link {
+  text-decoration: none;
+  color: hsl(218, 44%, 22%);
 }
